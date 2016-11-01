@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:Name="tb_tal1" HorizontalAlignment="Left" Margin="48,57,0,0" TextWrapping="Wrap" Text="talinput1" VerticalAlignment="Top"/>
-        <TextBox x:Name="tb_tal2" HorizontalAlignment="Left" Margin="165,57,0,0" TextWrapping="Wrap" Text="talinput2" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_tal1" HorizontalAlignment="Left" Margin="42,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_tal2" HorizontalAlignment="Left" Margin="191,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.945,0.563" Width="54"/>
         <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="48,122,0,0" VerticalAlignment="Top" Width="80" Click="btn_plus_Click"/>
         <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="165,122,0,0" VerticalAlignment="Top" Width="80" Click="btn_minus_Click"/>
         <Button x:Name="btn_gange" Content="*" HorizontalAlignment="Left" Margin="48,184,0,0" VerticalAlignment="Top" Width="80" Click="btn_gange_Click"/>
@@ -18,6 +18,8 @@
         <TextBox x:Name="tb_visResultat" HorizontalAlignment="Left" Margin="48,305,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="197"/>
         <Button x:Name="btn_m" Content="m+" HorizontalAlignment="Left" Margin="48,243,0,0" VerticalAlignment="Top" Width="80" Click="btn_m_Click"/>
         <Button x:Name="btn_mRyd" Content="Cm" HorizontalAlignment="Left" Margin="211,243,0,0" VerticalAlignment="Top" Width="40" Click="btn_mRyd_Click"/>
+        <TextBox x:Name="tb_operator" HorizontalAlignment="Left" Margin="117,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="37" Height="16"/>
+        <TextBox x:Name="tb_test" HorizontalAlignment="Left" Margin="291,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211"/>
 
     </Grid>
 </Page>
