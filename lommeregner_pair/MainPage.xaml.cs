@@ -26,5 +26,35 @@ namespace lommeregner_pair
         {
             this.InitializeComponent();
         }
+
+        private void btn_plus_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_minus_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_gange_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_divider_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_resultat_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_ryd_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

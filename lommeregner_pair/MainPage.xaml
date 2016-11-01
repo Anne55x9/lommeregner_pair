@@ -10,11 +10,13 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBox x:Name="tb_tal1" HorizontalAlignment="Left" Margin="48,57,0,0" TextWrapping="Wrap" Text="talinput1" VerticalAlignment="Top"/>
         <TextBox x:Name="tb_tal2" HorizontalAlignment="Left" Margin="165,57,0,0" TextWrapping="Wrap" Text="talinput2" VerticalAlignment="Top"/>
-        <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="48,122,0,0" VerticalAlignment="Top" Width="80"/>
-        <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="165,122,0,0" VerticalAlignment="Top" Width="80"/>
-        <Button x:Name="btn_gange" Content="*" HorizontalAlignment="Left" Margin="48,184,0,0" VerticalAlignment="Top" Width="80"/>
-        <Button x:Name="btn_divider" Content="/" HorizontalAlignment="Left" Margin="165,184,0,0" VerticalAlignment="Top" Width="80"/>
-        <Button x:Name="btn_resultat" Content="Button" HorizontalAlignment="Left" Margin="48,243,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="48,122,0,0" VerticalAlignment="Top" Width="80" Click="btn_plus_Click"/>
+        <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="165,122,0,0" VerticalAlignment="Top" Width="80" Click="btn_minus_Click"/>
+        <Button x:Name="btn_gange" Content="*" HorizontalAlignment="Left" Margin="48,184,0,0" VerticalAlignment="Top" Width="80" Click="btn_gange_Click"/>
+        <Button x:Name="btn_divider" Content="/" HorizontalAlignment="Left" Margin="165,184,0,0" VerticalAlignment="Top" Width="80" Click="btn_divider_Click"/>
+        <Button x:Name="btn_resultat" Content="=" HorizontalAlignment="Left" Margin="48,243,0,0" VerticalAlignment="Top" Width="80" Click="btn_resultat_Click"/>
+        <Button x:Name="btn_ryd" Content="C" HorizontalAlignment="Left" Margin="165,243,0,0" VerticalAlignment="Top" Width="80" Click="btn_ryd_Click"/>
+        <TextBox x:Name="tb_visResultat" HorizontalAlignment="Left" Margin="48,305,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="197"/>
 
     </Grid>
 </Page>
