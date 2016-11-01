@@ -8,6 +8,13 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="tb_tal1" HorizontalAlignment="Left" Margin="48,57,0,0" TextWrapping="Wrap" Text="talinput1" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_tal2" HorizontalAlignment="Left" Margin="165,57,0,0" TextWrapping="Wrap" Text="talinput2" VerticalAlignment="Top"/>
+        <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="48,122,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="165,122,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btn_gange" Content="*" HorizontalAlignment="Left" Margin="48,184,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btn_divider" Content="/" HorizontalAlignment="Left" Margin="165,184,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btn_resultat" Content="Button" HorizontalAlignment="Left" Margin="48,243,0,0" VerticalAlignment="Top" Width="80"/>
 
     </Grid>
 </Page>
